@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Post › Guovj的成长快乐</title>
+  <title>Markdown语法学习 › Guovj的成长快乐</title>
   <meta name="author" content="Guovj">
   
   <meta name="description" content="Guovj-前端小菜鸟、曾经的游戏迷、手表迷、数码迷">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta property="og:title" content="Post"/>
+  <meta property="og:title" content="Markdown语法学习"/>
   <meta property="og:site_name" content="Guovj的成长快乐"/>
 
   
@@ -32,9 +32,11 @@
   <nav id="main-nav">
     <ul>
       
-      <li><a href="/archives">分类</a></li>
+      <li><a href="/">首页</a></li>
       
-      <li><a href="/about">关于博主</a></li>
+      <li><a href="/archives">归档</a></li>
+      
+      <li><a href="/about">关于</a></li>
       
     </ul>
     <div class="clearfix"></div>
@@ -48,7 +50,7 @@
     <header>
       
   
-    <h1 class="title">Post</h1>
+    <h1 class="title">Markdown语法学习</h1>
   
 
       
@@ -57,15 +59,67 @@
     </header>
     <div class="entry">
       
-        <p>#first blog<br>this is my first HEXO blog.</p>
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul>
+<li>轻量级的标签语言</li>
+<li>格式优美</li>
+<li>能够转换成pdf、html、md格式</li>
+</ul>
 <a id="more"></a>
+<h1 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h1><ol>
+<li>‘#’号代表标题（类似html中的h1~h6 ）<ul>
+<li>‘#’一级标题</li>
+<li>‘##’二级标题</li>
+<li>‘###’三级标题</li>
+<li>‘####’四级标题</li>
+<li>‘#####’五级标题</li>
+<li>‘######’六级标题</li>
+</ul>
+</li>
+<li>列表<ul>
+<li>有序：前面是’1.’ 后面要有空格，</li>
+<li>无序：前面加’*’号</li>
+</ul>
+</li>
+<li>引用：&gt;<ul>
+<li>后面要有空格，再加其他文字</li>
+<li>可以在引用里面嵌套标题、列表等</li>
+</ul>
+</li>
+<li>插入图片跟链接<ul>
+<li>插入链接：[链接的文字]（链接地址）</li>
+<li>插入图片：![图片的描述信息]（图片链接）</li>
+</ul>
+</li>
+<li>粗体：外面有2个星号包裹着  （ <strong>里面的文字是粗体</strong>）</li>
+<li>斜体：外面有一个星号包裹着   （<em>里面的文字是斜体</em>）</li>
+<li>代码：代码写在’代码’单引号里面（使用tab缩进）</li>
+<li>代码块：三个单引号包裹，如：’’’代码块’’’</li>
+<li>表格：比较麻烦、这里略~哈哈</li>
+<li>分割线：另起一行，三个星号</li>
+<li>大标题：一行文字另起一行，写个=</li>
+<li>小标题：一行文字另起一行，写个-</li>
+<li>列表之前可以用：-+星号表示，并且可以相互嵌套，一般是-星+这样的内嵌顺序</li>
+<li>空格：单个回车</li>
+<li>分段：连续回车</li>
+<li>段内换行：行尾加2个空格</li>
+</ol>
 
       
     </div>
       
       <footer>
         
+  
+  <div class="categories">
+    <a href="/categories/学习/">学习</a>
+  </div>
+
         
+  
+  <div class="tags">
+    <a href="/tags/markdown/">markdown</a>
+  </div>
+
         
   <div class="addthis addthis_toolbox addthis_default_style">
     
@@ -94,7 +148,7 @@
 <section id="comment">  
  
     <!-- 多说评论框 start -->
-  <div class="ds-thread" data-thread-key="2016/12/21/Post/" data-title="Post" data-url="http://guovj.github.io/http://yoursite.com/2016/12/21/Post/"></div>
+  <div class="ds-thread" data-thread-key="2016/12/21/Markdown语法学习/" data-title="Markdown语法学习" data-url="http://guovj.github.io/http://yoursite.com/2016/12/21/Markdown语法学习/"></div>
 <!-- 多说评论框 end -->
 <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
@@ -127,6 +181,15 @@ var duoshuoQuery = {short_name:"guovj"};
 </div>
 
   
+<div class="widget tag">
+  <h3 class="title">分类</h3>
+  <ul class="entry">
+  
+    <li><a href="/categories/学习/">学习</a><small>2</small></li>
+  
+  </ul>
+</div>
+
 
   
 <div class="widget tag">
@@ -134,20 +197,25 @@ var duoshuoQuery = {short_name:"guovj"};
   <ul class="entry">
     
       <li>
-        <a href="/2016/12/21/Post/">Post</a>
+        <a href="/2016/12/21/Markdown语法学习/">Markdown语法学习</a>
       </li>
     
       <li>
-        <a href="/2016/12/20/hello-world/">Hello World</a>
+        <a href="/2016/12/20/HEXO博客系统创建-过程+问题/">HEXO博客系统创建过程的问题</a>
       </li>
     
   </ul>
 </div>
 
 
-  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1914967657&verifier=00e07be0&dpc=1"></iframe>
-
   
+<div class="widget tagcloud">
+  <h3 class="title">标签云</h3>
+  <div class="entry">
+    <a href="/tags/markdown/" style="font-size: 10px;">markdown</a>
+  </div>
+</div>
+
 </aside>
     <div class="clearfix"></div>
   </div>
@@ -164,6 +232,11 @@ var duoshuoQuery = {short_name:"guovj"};
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
+
+<div id="totop" style="position:fixed;bottom:150px;right:20px;cursor: pointer;opacity: 1;">
+<a title="返回顶部"><img src="/imgs/scrollup.png"/></a>
+</div>
+<script src="/js/totop.js"></script>
 
 </body>
 </html>
