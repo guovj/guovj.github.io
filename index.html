@@ -1,247 +1,1155 @@
-<!DOCTYPE HTML>
-<html>
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
-  
-  <title>Guovj的成长快乐</title>
-  <meta name="author" content="Guovj">
-  
-  <meta name="description" content="Guovj-前端小菜鸟、曾经的游戏迷、手表迷、数码迷">
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
 
   
-  <meta property="og:site_name" content="Guovj的成长快乐"/>
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
 
   
-    <meta property="og:image" content="undefined"/>
+  
+  
   
 
-  <link href="/favicon.png" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Guovj的成长快乐" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="前端小菜鸟、曾经的游戏迷、手表迷、数码迷">
+<meta property="og:type" content="website">
+<meta property="og:title" content="咖喱给给">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="咖喱给给">
+<meta property="og:description" content="前端小菜鸟、曾经的游戏迷、手表迷、数码迷">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="咖喱给给">
+<meta name="twitter:description" content="前端小菜鸟、曾经的游戏迷、手表迷、数码迷">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/"/>
+
+
+
+
+
+  <title> 咖喱给给 </title>
 </head>
 
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
-<body>
-  <header id="header"><div class="meta inner">
-  <h1><a href="/">Guovj的成长快乐</a></h1>
-  <h2><a href="/">My name is none</a></h2>
-  <nav id="main-nav">
-    <ul>
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">咖喱给给</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">My name is none</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
       
-      <li><a href="/">首页</a></li>
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
       
-      <li><a href="/archives">归档</a></li>
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
       
-      <li><a href="/about">关于</a></li>
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404.html" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            公益404
+          </a>
+        </li>
+      
+
       
     </ul>
-    <div class="clearfix"></div>
-  </nav>
-</div>
-<div class="clearfix"></div>
-</header>
-  <div id="content" class="inner">
-    <div id="main-col" class="alignleft"><div id="wrapper">
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2017/01/15/HEXO博客系统创建过程+问题/"></a></h1>
   
 
-      
-        <time datetime="2017-01-14T22:33:58.496Z">2017-01-15</time>
-      
+  
+</nav>
+
+
+
+ </div>
     </header>
-    <div class="entry">
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
       
-        <hr>
-<p>title: HEXO博客系统创建过程+问题<br>categories: 学习</p>
-<h2 id="tags-hexo"><a href="#tags-hexo" class="headerlink" title="tags: hexo"></a>tags: hexo</h2><h1 id="创建过程的麻烦"><a href="#创建过程的麻烦" class="headerlink" title="创建过程的麻烦"></a>创建过程的麻烦</h1><p>一开始按照”超人不会飞”（简称超人兄，他的博客地址：<a href="http://www.iamsuperman.cn/">超人不会飞</a>）的博客上的HEXO建博的教程来，但还对于第一次接触还是不够详细，所以自己还结合百度其他人的教程以及碰到的问题来解决我<strong>碰到的问题</strong>：<br>
-      
-    </div>
-      
-        
-        <footer>
-          <div class="alignleft">
-            <a href="/2017/01/15/HEXO博客系统创建过程+问题/#more" class="more-link">Read More &gt;</a>
-          </div>
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
 
   
 
-
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
   
-    <h1 class="title"><a href="/2017/01/15/Markdown语法入门/"></a></h1>
+  
   
 
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/15/Markdown语法入门-学习/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="none">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="咖喱给给">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="咖喱给给" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/01/15/Markdown语法入门-学习/" itemprop="url">
+                  Markdown语法入门-学习
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-15T17:06:19+08:00">
+                2017-01-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/study/" itemprop="url" rel="index">
+                    <span itemprop="name">study</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/01/15/Markdown语法入门-学习/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/15/Markdown语法入门-学习/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/01/15/Markdown语法入门-学习/" class="leancloud_visitors" data-flag-title="Markdown语法入门-学习">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
-        <time datetime="2017-01-14T22:33:03.870Z">2017-01-15</time>
       
-    </header>
-    <div class="entry">
+
       
-        <hr>
-<p>title: Markdown语法学习<br>categories: 学习</p>
-<h2 id="tags-markdown"><a href="#tags-markdown" class="headerlink" title="tags: markdown "></a>tags: markdown </h2><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul>
+        
+          <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul>
 <li>轻量级的标签语言</li>
 <li>格式优美</li>
 <li>能够转换成pdf、html、md格式</li>
 </ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/15/Markdown语法入门-学习/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
       
     </div>
-      
-        
-        <footer>
-          <div class="alignleft">
-            <a href="/2017/01/15/Markdown语法入门/#more" class="more-link">Read More &gt;</a>
-          </div>
-        
-        
-      
-      <div class="clearfix"></div>
-      </footer>
-  </div>
-</article>
 
-  
-
-
-  <article class="post">
-  <div class="post-content">
-    <header>
-      
-  
-    <h1 class="title"><a href="/2017/01/15/毕业后三份工作的感受/">毕业后三份工作的感受</a></h1>
-  
-
-      
-        <time datetime="2017-01-14T22:19:27.220Z">2017-01-15</time>
-      
-    </header>
-    <div class="entry">
-      
-        <ol>
-<li>2016年2月份_广州续日有限公司（海南分公司）：<ul>
-<li><strong>第一份实习</strong>，在里面呆了一个月（包午饭），刚去面试的时候，主管还给新年红包了（人也很逗-海南人特有的幽默风趣不能少）。一个月后，“志向远大”的我决定去深圳</li>
-</ul>
-</li>
-<li>2016年3月份_深圳金证科技股份有限公司：<ul>
-<li><strong>第二份实习+第一份正式的工作</strong>（签了合同的，试用4.8K-转正6K+）对于刚毕业的我能拿到这么高工资，确实蛮侥幸的-毕竟上市的大公司，果然阔气。【离开的原因是，学不到东西、厉害的人都派去出差了，剩下的就是一堆实习生在公司熟悉项目、放羊，对于自觉性不咋样的我这种模式不适合我的成长，这中间突然跟高中同学接触上，明白前端这职业要学习的东西，正好有兴趣就决定学前端吧，因为之前的职业规划路线是很模糊的。】</li>
-</ul>
-</li>
-<li>2016年9月-2017年1月初_链络科技股份有限公司：<ul>
-<li><strong>第二份非正式的工作</strong>（合同什么也没有，纯临时工干着正式员工的活），公司初创各方面都不完善甚至没有。在这家公司我也发现了自身很多的不足，后期也学不到东西了并且自己也想在快节奏的生活中慢下来思考点东西，果断辞了。
+    <div>
       
     </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/15/HEXO博客系统创建过程-问题/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="none">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="咖喱给给">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="咖喱给给" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/01/15/HEXO博客系统创建过程-问题/" itemprop="url">
+                  HEXO博客系统创建过程+问题
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-15T17:06:01+08:00">
+                2017-01-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/study/" itemprop="url" rel="index">
+                    <span itemprop="name">study</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/01/15/HEXO博客系统创建过程-问题/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/15/HEXO博客系统创建过程-问题/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/01/15/HEXO博客系统创建过程-问题/" class="leancloud_visitors" data-flag-title="HEXO博客系统创建过程+问题">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
       
         
-        <footer>
-          <div class="alignleft">
-            <a href="/2017/01/15/毕业后三份工作的感受/#more" class="more-link">Read More &gt;</a>
+          <h1 id="创建过程的麻烦"><a href="#创建过程的麻烦" class="headerlink" title="创建过程的麻烦"></a>创建过程的麻烦</h1><p>一开始按照”超人不会飞”（简称超人兄，他的博客地址：<a href="http://www.iamsuperman.cn/">超人不会飞</a>）的博客上的<code>HEXO</code>建博的教程来，但还对于第一次接触还是不够详细，所以自己还结合百度其他人的教程以及碰到的问题来解决我（如果一开始就中意<code>nextT</code>主题（主题中又有三套主题），直接去他的官网，文档很详细，然后再搜索一篇hexo建博教程基本上就能明白一二）</p>
+<p><strong>碰到的问题</strong>：</p>
+<pre><code>1. 对于github不是很了解，git指令以前用过但没深入过，所以在这过程中，如何把本地的hexo项目部署到github上让我也花了挺多时间。
+    * 重新去了解git，30分钟重新入门（哈哈~~），顺便下载了一个git图形化工具source tree，还在github上创建了一个git_study仓库去实践
+    * 搜索其他人如何将hexo博客部署到github上
+
+2. 如果在执行部署操作的时候（在命令行输入hexo deploy）出现（ERROR Deployer not found: github）
+    * npm install hexo-deployer-git --save
+    * hexo 3.0以后需要在根目录的配置文件_config.yml中的最底下的type改成git而不是github
+</code></pre>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/15/HEXO博客系统创建过程-问题/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
           </div>
-        
+          <!--/noindex-->
         
       
-      <div class="clearfix"></div>
-      </footer>
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/01/15/毕业后的三份工作感受/">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="none">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="咖喱给给">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="咖喱给给" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/01/15/毕业后的三份工作感受/" itemprop="url">
+                  毕业后的三份工作感受
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-15T17:05:42+08:00">
+                2017-01-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/work/" itemprop="url" rel="index">
+                    <span itemprop="name">work</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/01/15/毕业后的三份工作感受/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/15/毕业后的三份工作感受/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+             <span id="/2017/01/15/毕业后的三份工作感受/" class="leancloud_visitors" data-flag-title="毕业后的三份工作感受">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h2><p><strong>2016年2月份【广州续日有限公司（海南分公司）】（实习）</strong></p>
+<p>第一份实习，在里面呆了一个月（包午饭），刚去面试的时候，主管还给新年红包了（人也很逗-海南人特有的幽默风趣不能少）。一个月后，“志向远大”的我决定去深圳</p>
+<p><strong>2016年3月份【深圳金证科技股份有限公司】（实习+正式入职）</strong><br>第二份实习+第一份正式的工作（签了合同的，试用4.8K-转正6K+）对于刚毕业的我能拿到这么高工资，确实蛮侥幸的-毕竟上市的大公司，果然阔气。【离开的原因是，学不到东西、厉害的人都派去出差了，剩下的就是一堆实习生在公司熟悉项目、放羊，对于自觉性不咋样的我这种模式不适合我的成长，这中间突然跟高中同学接触上，明白前端这职业要学习的东西，正好有兴趣就决定学前端吧，因为之前的职业规划路线是很模糊的。】</p>
+<p><strong>2016年9月-2017年1月初【链络科技股份有限公司】（算正式入职）</strong><br>第二份非正式的工作（合同什么也没有，纯临时工干着正式员工的活），公司初创各方面都不完善甚至没有。在这家公司我也发现了自身很多的不足，后期也学不到东西了并且自己也想在快节奏的生活中慢下来思考点东西，果断辞了。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/01/15/毕业后的三份工作感受/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+
+          
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
   </div>
-</article>
 
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="none" />
+          <p class="site-author-name" itemprop="name">none</p>
+          <p class="site-description motion-element" itemprop="description">前端小菜鸟、曾经的游戏迷、手表迷、数码迷</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/guovj" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/1914967657" target="_blank" title="微博">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  微博
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://www.zhihu.com/people/vj-guovj" target="_blank" title="知乎">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  知乎
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
   
-
-
-
-<nav id="pagination">
-  
-  
-  <div class="clearfix"></div>
-</nav></div></div>
-    <aside id="sidebar" class="alignright">
-  <div class="widget tag">
-<h3 class="title">简介</h3>
-<ul class="entry">
-<li><h5 style="display:inline-block">贫僧法号：</h3>发财</li>
-<li><h5 style="display:inline-block">绰号：</h3>小健健、二锅头、奶</li>
-<li><h5 style="display:inline-block">现状：</h3>在家修养</li>
-<li><h5 style="display:inline-block">职位：</h3>前端未遂</li>
-<li><h5 style="display:inline-block">QQ  ：</h3>542081440</li>
-<li><h5 style="display:inline-block">邮箱：</h3>guodeworld@qq.com</li>
-</ul>
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">none</span>
 </div>
 
-  
-<div class="widget tag">
-  <h3 class="title">分类</h3>
-  <ul class="entry">
-  
-    <li><a href="/categories/工作/">工作</a><small>1</small></li>
-  
-  </ul>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
 </div>
 
 
-  
-<div class="widget tag">
-  <h3 class="title">最新文章</h3>
-  <ul class="entry">
-    
-      <li>
-        <a href="/2017/01/15/HEXO博客系统创建过程+问题/"></a>
-      </li>
-    
-      <li>
-        <a href="/2017/01/15/Markdown语法入门/"></a>
-      </li>
-    
-      <li>
-        <a href="/2017/01/15/毕业后三份工作的感受/">毕业后三份工作的感受</a>
-      </li>
-    
-  </ul>
-</div>
+        
 
+        
+      </div>
+    </footer>
 
-  <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=2&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=1&uid=1914967657&verifier=00e07be0&dpc=1"></iframe>
-
-  
-</aside>
-    <div class="clearfix"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
-  <footer id="footer" class="inner"><div class="alignleft">
+
   
-  蒟蒻前端学习者&nbsp;&copy; 2017 Guovj
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
   
-</div>
-<div class="clearfix"></div>
-
-
-<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span></footer>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
 
-<div id="totop" style="position:fixed;bottom:150px;right:20px;cursor: pointer;opacity: 1;">
-<a title="返回顶部"><img src="/imgs/scrollup.png"/></a>
-</div>
-<script src="/js/totop.js"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"guovj"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    
+    <script src="/lib/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"></script>
+  <script>AV.initialize("kJGuuVqQFGgEyoFVFAIi9wGD-gzGzoHsz", "6J9RpVALXwTxd6yU7FoWdYjJ");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
 
 </body>
 </html>
-
