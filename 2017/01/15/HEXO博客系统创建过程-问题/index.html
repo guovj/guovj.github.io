@@ -94,7 +94,7 @@
 <meta property="og:description" content="创建过程的麻烦一开始按照”超人不会飞”（简称超人兄，他的博客地址：超人不会飞）的博客上的HEXO建博的教程来，但还对于第一次接触还是不够详细，所以自己还结合百度其他人的教程以及碰到的问题来解决我（如果一开始就中意nextT主题（主题中又有三套主题），直接去他的官网，文档很详细，然后再搜索一篇hexo建博教程基本上就能明白一二）
 碰到的问题：
 1. 对于github不是很了解，git指令以前用过但没">
-<meta property="og:updated_time" content="2017-01-15T09:29:56.912Z">
+<meta property="og:updated_time" content="2017-01-15T16:52:13.114Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO博客系统创建过程+问题">
 <meta name="twitter:description" content="创建过程的麻烦一开始按照”超人不会飞”（简称超人兄，他的博客地址：超人不会飞）的博客上的HEXO建博的教程来，但还对于第一次接触还是不够详细，所以自己还结合百度其他人的教程以及碰到的问题来解决我（如果一开始就中意nextT主题（主题中又有三套主题），直接去他的官网，文档很详细，然后再搜索一篇hexo建博教程基本上就能明白一二）
@@ -403,6 +403,17 @@
     3. desrciption：对本页的描述
 
 7. 通过hexo g -d 就能部署完成的内容到master分支上
+
+8. 将hexo博客系统项目部署到github的master分支上、原文件扔到source分支上
+    1. 拷贝hexo根目录下的public里面的文件到hexo目录下的git文件夹【有了分支，不再需要拷贝public里的内容到username.github.io （这里面是push到master分支上的东西，原文件经过转化成html部署到github上的东西）】
+        cd username.github.io【不需要了】
+        ---修改完文章，push到source分支上↓----
+        git add -A
+        git commit -m &quot;描述信息&quot;
+        git push -u origin source（分支）
+
+    2. hexo g -d 这是发布网站到master分支上
+    总结： 搞这个source分支的目的就是把原文件（即md格式的文章）保留下来，并且不需要拷贝public里面的东西到master本地仓库文件夹中了。
 </code></pre><h1 id="个人体会："><a href="#个人体会：" class="headerlink" title="个人体会："></a>个人体会：</h1><ul>
 <li>花了大约有5天的时间，不算全心投入，中途甚至产生放弃的想法。但还是坚持去搞了，因为看到超人兄的博客真的很棒，而且曾经在我懵逼的时候，<strong>超人兄</strong>的博客里面的许多知识让我受益，点醒了我，甚至在超人兄的帮助下解决工作上的问题，还鼓励我完成了这个HEXO博客，真心非常感谢他帮助我这个陌生人。以及从他身上学习到：<strong>多看书</strong>、<strong>坚持不懈</strong>、<strong>看问题的角度</strong>、<strong>还有他的经历</strong>，真的是很好的学习干货（<strong>有待细化去思考变成我自己能行动的准则</strong>）。从16年的9月份决定学习前端以来，我高中同学的支持，超人兄的鼓励带给我的动力，我要好好利用现在的热度，<strong>学习学习再学习</strong>。</li>
 </ul>
